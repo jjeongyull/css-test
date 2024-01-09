@@ -1,0 +1,35 @@
+.box{
+  width: 200px;
+  padding: 20px;
+  border: 50px solid black;
+  margin-bottom: 20px;
+}
+.green{
+  border: 50px solid green;
+}
+.red{
+  border: 50px solid red;
+}
+.center{
+  text-align: center;
+}
+h1{
+  color: #9b59b6;
+}
+h1::before {
+  content: "Topic: ";
+}
+p::first-letter {
+  font-size: 200%;
+}
+p{
+  color: #2980b9;
+}
+.challenge2{
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  padding: 0 10%;
+}
